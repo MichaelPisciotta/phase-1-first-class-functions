@@ -47,38 +47,47 @@ function morningRoutine(exercise) {
 
 
 
-function doFirst() {
-    console.log("Do now");
-  } 
 
-function receivesAFunction(callback) {
-    doFirst();
-    callback();
-}
+
+// function doFirst() {
+//     console.log("Do now");
+//   } 
+
+// function receivesAFunction(callback) {
+//     doFirst();
+//     callback();
+// }
 
  
 
-  function today() {
-    return "hello"
-  }
+//   function today() {
+//     return "hello"
+//   }
 
 
-function returnsANamedFunction() {
-    doFirst();
-    return today 
+// function returnsANamedFunction() {
+//     doFirst();
+//     return today 
+// }
+
+
+// function returnsAnAnonymousFunction(){
+// return function () {
+//     return "hello"
+//   }
+// }
+
+
+
+
+function doFirst() {
+  console.log("hello")
 }
 
-
-function returnsAnAnonymousFunction(){
-return function () {
-    return "hello"
-  }
+function receivesAFunction(callback){
+  doFirst()
+  callback();
 }
-
-
-
-
-
 
 
 
